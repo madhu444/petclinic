@@ -8,6 +8,23 @@
 
     <name>petclinic</name>
     <packaging>war</packaging>
+    <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>nexus</id>
+      <name>releases</name>
+      <url>http://3.16.124.196:8081/nexus/content/repositories/release_candidate/</url>
+      <layout>default</layout>
+    </repository>
+    <snapshotRepository>
+      <uniqueVersion>true</uniqueVersion>
+      <id>nexus</id>
+      <name>Snapshots</name>
+      <url>http://3.16.124.196:8081/nexus/content/repositories/snapshots/</url>
+      <layout>legacy</layout>
+    </snapshotRepository>
+</distributionManagement>
+
 
     <properties>
 
