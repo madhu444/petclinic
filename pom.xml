@@ -13,21 +13,18 @@
       <uniqueVersion>false</uniqueVersion>
       <id>nexus</id>
       <name>releases</name>
-      <url>http://3.16.124.196:8081/nexus/content/repositories/release_candidate/</url>
+      <url>http://3.18.225.132:8081/nexus/content/repositories/release_candidate/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
       <id>nexus</id>
       <name>Snapshots</name>
-      <url>http://3.16.124.196:8081/nexus/content/repositories/snapshots/</url>
+      <url>http://3.18.225.132:8081/nexus/content/repositories/snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
 </distributionManagement>
-
-
     <properties>
-
         <!-- Generic properties -->
         <java.version>1.7</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
